@@ -14,6 +14,7 @@ public class accountsteps extends basesteps {
     @When("click on new account link and fill mandatory fields")
     public void fill_account_mandatory_fields() {
 //
+        System.out.println("Seema has to do something");
         hp.clickNewAccount();
         acp.createaccount(dt.get(TCName).get("AccountName"));
 

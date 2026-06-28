@@ -32,6 +32,9 @@ public class HomePage extends BasePage {
     @FindBy(linkText = "New Account")
     WebElement lnk_NewAccount;
 
+    @FindBy(linkText = "New Account")
+    WebElement lnk_NewAccount2;
+
 
 
 
